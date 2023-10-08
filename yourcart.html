@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Getme</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/42e49f9e31.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="images/laptop-solid.svg" rel="icon" />
+    <script src="script.js"></script>
+</head>
+<body>
+    <section id="header">
+        <nav
+          class="navbar navbar-expand-lg navbar-light"
+          style="background-color: blueviolet"
+        >
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <i class="fa-solid fa-laptop fa-xl"></i> Getme</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <form class="d-flex mx-auto">
+                <input
+                  class="form-control form-control-lg me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-dark btn-lg" type="submit">
+                  Search
+                </button>
+              </form>
+              <ul class="navbar-nav ms-auto" style="padding: 10px">
+                <li class="nav-item dropdown" style="padding: 0px 5px">
+                  <div class="dropdown">
+                    <a
+                      class="btn btn-outline-light dropdown-toggle"
+                      href="index1.html"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="true"
+                    >
+                      <i class="fa-solid fa-user fa-xs"></i> Sign In/Up
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <li>
+                        <a class="dropdown-item" href="signin.html">Login</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="signup.html">Sign Up</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="index.html">
+                    <i class="fa-solid fa-house fa-lg"></i> Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="yourcart.html">
+                    <i class="fa-solid fa-cart-shopping fa-lg"></i> Your Cart</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fa-solid fa-backward fa-lg"></i> Orders</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fa-solid fa-heart fa-lg"></i> Wish List</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <section>
+        <div class="container-fluid">
+                <div class="row" style="text-align: center; margin-top: 30px;;">
+                  <div class="col-lg-8" >
+                        <h3 class="cart-heading">Your items</h3>
+                        <div class="cart-data">
+                            <img src="images/gaminglaptops/a15.jpeg" alt="a15" style="float:left; margin-left: 50px; width: 500px; ">
+                        </div>
+                        <div style="margin-top: 12%; margin-right: 9%;">
+                            <p style="font-size:1.2rem ;"><strong> Number of Units </strong> </p>
+                            <i class="fa-solid fa-minus"></i> <p style="border: 2px solid; margin: 10px; width: 50px; height: 50px ;display: inline-block; padding: 1%"> 1  </p>  <i class="fa-solid fa-plus"></i>
+                        </div>
+                  </div>    
+                  <div class="col-4">
+                    <div style="text-align: left;" >
+                        <p style=" font-size: 1.4rem;"> Price details:-</p>
+                        <br>
+                        <br>
+                        <pre style="font-size: 1.4rem;"> <strong >MRP</strong>                      ₹1,03,990</pre>
+                        <pre style="font-size: 1.4rem;"> <strong >Discount</strong>                 ₹31,990</pre>
+                        <pre style="font-size: 1.4rem;"> <strong >Delivery Charges</strong>          Free</pre>
+                        <hr>
+                        <pre style="font-size: 1.4rem;"> <strong >Total Amount</strong>              ₹72,000</pre>
+                        <button class="btn btn-warning btn-lg" type="button"  style="position: relative; float: right; top: 20px; right: 20px;">
+                          <i " class="fa-solid fa-truck fa-md"></i> Buy Now
+                        </button>
+                        
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+      </section>
+</body>
+</html>
